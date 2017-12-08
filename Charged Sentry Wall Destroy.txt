@@ -1,0 +1,22 @@
+[General]
+Type = PRJ_IMAGE
+Gravity = 0
+Image = Invisible.png
+Timer = 12.5
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 15
+Speed = 100
+Spread = 180
+Projectile = Charged Sentry Wall Carve.txt

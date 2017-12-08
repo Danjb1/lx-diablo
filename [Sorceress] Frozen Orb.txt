@@ -1,0 +1,15 @@
+[General]
+Name = [Sorceress] Frozen Orb
+Class = WCL_MISSILE
+Recoil = 5
+Recharge = 1
+Drain = 11
+ROF = 300
+Sound = Frozen Orb.wav
+
+[Projectile]
+Amount = 1
+Speed = 150
+SpeedVar = 10
+Spread = 5
+Projectile = Frozen Orb Dummy.txt

@@ -1,0 +1,33 @@
+[General]
+Type = PRJ_IMAGE
+Image = Fire Blast.png
+Animating = True
+AnimRate = 25
+AnimType = ANI_LOOP
+Trail = TRL_SMOKE
+Dampening = 0.995
+Timer = 1
+TimerVar = 0.2
+
+[Hit]
+Type = Explode
+Damage = 10
+Projectiles = True
+Shake = 4
+Sound = Fire Explosion.wav
+
+[PlayerHit]
+Type = Explode
+Damage = 10
+Projectiles = True
+
+[Time]
+Type = Explode
+Damage = 10
+Projectiles = True
+
+[Projectile]
+Amount = 15
+Speed = 200
+Spread = 180
+Projectile = Fire Blast Dummy.txt

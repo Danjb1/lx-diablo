@@ -1,0 +1,28 @@
+# An invisible seeker particle.
+# When it hits a player, it sends a signal back to the turret (Charged Sentry Trigger).
+
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Gravity = 0
+Timer = 0.2
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Time]
+Type = Explode
+Damage = -1
+
+[Projectile]
+Amount = 1
+Angle = 180
+Projectile = Charged Sentry Trigger.txt
+Speed = 800
+Useangle = true

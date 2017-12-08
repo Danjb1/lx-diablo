@@ -1,0 +1,20 @@
+[General]
+Type = PRJ_PIXEL
+Colour1 = 183,61,2
+
+[Hit]
+Type = Explode
+Damage = -1
+Projectiles = True
+Shake = 4
+Sound = Volcano Rumble.wav
+
+[PlayerHit]
+Type = Nothing
+
+[Projectile]
+Amount = 1
+Speed = 50
+UseAngle = True
+Angle = 180
+Projectile = Volcano Up Dummy.txt

@@ -1,0 +1,15 @@
+[General]
+Name = [Assassin] Fire Blast
+Class = WCL_GRENADE
+Recoil = 2
+Recharge = 3
+Drain = 12
+ROF = 400
+Sound = Throw.wav
+
+[Projectile]
+Amount = 1
+Speed = 120
+SpeedVar = 20
+Spread = 3
+Projectile = Fire Blast.txt

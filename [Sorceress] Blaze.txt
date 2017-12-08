@@ -1,0 +1,14 @@
+[General]
+Name = [Sorceress] Blaze
+Recoil = -3
+Recharge = 2
+Drain = 0
+ROF = 35
+Sound = Crackle Fire.wav
+
+[Projectile]
+Amount = 1
+Speed = -80
+SpeedVar = 5
+Spread = 1
+Projectile = Blaze Dummy.txt

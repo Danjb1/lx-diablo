@@ -1,0 +1,19 @@
+[General]
+Type = PRJ_IMAGE
+Image = War Cry Stun.png
+Animating = True
+AnimRate = 30
+AnimType = ANI_LOOP
+Gravity = 0
+Dampening = 0.95
+Timer = 3
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1

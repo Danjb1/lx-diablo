@@ -1,0 +1,26 @@
+[General]
+Type = PRJ_IMAGE
+Image = War Cry.png
+Animating = True
+AnimRate = 30
+AnimType = ANI_LOOP
+Gravity = 0
+Timer = 0.02
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 300
+UseAngle = True
+Projectile = War Cry Shot.txt

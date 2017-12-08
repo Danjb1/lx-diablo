@@ -1,0 +1,24 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Gravity = 0
+Timer = 0.001
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Dirt
+
+[ProjectileTrail]
+Amount = 5
+Delay = 50
+Speed = 100
+SpeedVar = 10
+Spread = 180
+Projectile = Bone Prison Bone.txt

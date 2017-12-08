@@ -1,0 +1,39 @@
+[General]
+Type = PRJ_IMAGE
+Image = Vengeance Blade.png
+Rotating = True
+RotIncrement = 45
+RotSpeed = 700
+Trail = TRL_PROJECTILE
+Gravity = 10
+Timer = 2
+
+[Hit]
+Type = Explode
+Damage = 5
+Projectiles = True
+Shake = 4
+Sound = Vengeance Blade Hit.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 15
+
+[Time]
+Type = Explode
+Damage = 5
+Projectiles = True
+Shake = 4
+
+[Projectile]
+Amount = 25
+Speed = 0
+Spread = 360
+Projectile = Vengeance Element Dummy 1.txt
+
+[ProjectileTrail]
+Amount = 15
+Delay = 50
+Spread = 360
+Speed = 0
+Projectile = Vengeance Element Dummy 1.txt

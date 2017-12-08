@@ -1,0 +1,30 @@
+[General]
+Type = PRJ_IMAGE
+Image = Fire Blast Boom.png
+Animating = True
+AnimRate = 40
+AnimType = ANI_LOOP
+Dampening = 0.95
+Timer = 0.2
+TimerVar = 0.1
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Explode
+Damage = 8
+Shake = 3
+Sound = Fire Blast Explode.wav
+
+[PlayerHit]
+Type = Explode
+Damage = 4
+
+[Time]
+Type = Explode
+Damage = 4
+
+[ProjectileTrail]
+Delay = 50
+Amount = 1
+Speed = 0
+Projectile = Fire Blast Trail.txt

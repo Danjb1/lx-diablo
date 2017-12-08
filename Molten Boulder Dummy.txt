@@ -1,0 +1,38 @@
+[General]
+Type = PRJ_IMAGE
+Image = Molten Boulder.png
+Rotating = True
+RotIncrement = 90
+RotSpeed = 350
+Timer = 0.5
+TimerVar = 0.1
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Bounce
+BounceCoeff = 1
+
+[PlayerHit]
+Type = Explode
+Damage = 10
+Projectiles = True
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 80
+SpeedVar = 20
+Spread = 3
+UseAngle = True
+Projectile = Molten Boulder.txt
+
+[ProjectileTrail]
+Amount = 5
+Speed = 4
+Delay = 100
+UseProjVelocity = True
+Projectile = Molten Boulder Dummy Carve.txt

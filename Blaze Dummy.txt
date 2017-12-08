@@ -1,0 +1,25 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Gravity = 20
+Dampening = 0.95
+Timer = 0.2
+
+[Hit]
+#Type = Nothing
+Type = Bounce
+BounceCoEff = 0
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 0
+Spread = 0
+Projectile = Blaze Fire.txt

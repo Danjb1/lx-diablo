@@ -1,0 +1,14 @@
+[General]
+Name = [Druid] Raven
+Recoil = 1
+Recharge = 3
+Drain = 34
+ROF = 750
+Sound = Raven.wav
+
+[Projectile]
+Amount = 1
+Speed = 170
+SpeedVar = 10
+Spread = 3
+Projectile = Raven.txt

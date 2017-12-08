@@ -1,0 +1,40 @@
+[General]
+Type = PRJ_IMAGE
+Image = Frozen Bolt.png
+UseAngle = True
+AngleImages = 18
+Trail = TRL_PROJECTILE
+Gravity = 0
+Timer = 0.4
+
+[Hit]
+Type = Explode
+Damage = 3
+Projectiles = True
+Shake = 1
+Sound = Ice Shard.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 6
+
+[Time]
+Type = Explode
+Damage = -1
+
+[Projectile]
+Amount = 5
+Speed = 80
+SpeedVar = 10
+Spread = 90
+Angle = 180
+UseAngle = True
+Projectile = Cold Dust.txt
+
+[ProjectileTrail]
+Amount = 5
+Speed = 10
+SpeedVar = 5
+Spread = 360
+Delay = 10
+Projectile = Cold Dust.txt

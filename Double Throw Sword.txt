@@ -1,0 +1,16 @@
+[General]
+Type = PRJ_IMAGE
+Image = Claymore.png
+Rotating = True
+RotIncrement = 22.5
+RotSpeed = 500
+
+[Hit]
+Type = Explode
+Damage = 10
+Shake = 3
+Sound = Clang Metal.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 21

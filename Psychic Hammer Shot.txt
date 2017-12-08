@@ -1,0 +1,25 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Trail = TRL_PROJECTILE
+Gravity = 0
+Dampening = 0.9
+Timer = 0.2
+
+[Hit]
+Type = Bounce
+BounceCoeff = 1
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+
+[ProjectileTrail]
+Amount = 360
+Speed = 600
+Spread = 180
+Delay = 1
+Projectile = Psychic Hammer Dummy.txt

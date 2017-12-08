@@ -1,0 +1,41 @@
+[General]
+Type = PRJ_IMAGE
+Image = Sacrifice Blade.png
+UseAngle = True
+AngleImages = 18
+Trail = TRL_PROJECTILE
+Gravity = 5
+Dampening = 0.95
+Timer = 0.3
+TimerVar = 0.1
+
+[Hit]
+Type = Explode
+Damage = 1
+Shake = 1
+Sound = Clang.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 51
+Projectiles = True
+
+[Time]
+Type = Explode
+Damage = -1
+
+[Projectile]
+Amount = 24
+Speed = 70
+Spread = 0
+Angle = 180
+UseAngle = True
+Projectile = Sacrifice Self Harm Dummy.txt
+
+[ProjectileTrail]
+Amount = 5
+Speed = 20
+SpeedVar = 10
+Spread = 360
+Delay = 500
+Projectile = Sacrifice Blood.txt

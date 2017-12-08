@@ -1,0 +1,13 @@
+[General]
+Name = [Druid] Volcano
+Recoil = 2
+Recharge = 2.5
+Drain = 51
+ROF = 500
+Sound = Volcano.wav
+
+[Projectile]
+Amount = 1
+Speed = 270
+Spread = 2
+Projectile = Volcano Placement.txt

@@ -1,0 +1,15 @@
+[General]
+Type = PRJ_IMAGE
+Image = Cold Dust.png
+Animating = True
+AnimRate = 10
+AnimType = ANI_ONCE
+Gravity = 5
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Explode
+Damage = -1

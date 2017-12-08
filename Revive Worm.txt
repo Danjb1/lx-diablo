@@ -1,0 +1,34 @@
+# The main turret. Gives out invisible P6 projectiles in all directions.
+
+[General]
+Type = PRJ_IMAGE
+AnimRate = 6
+AnimType = ANI_LOOP
+Animating = true
+Dampening = 0
+Gravity = 0
+Image = Revive Worm.png
+Timer = 8
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 15
+#Projectiles = True
+
+#[Projectile]
+#Projectile = Revive Giblets.txt
+#Needs dummy for 1.6 secs that stops sending out seekers
+
+[ProjectileTrail]
+Amount = 100
+Delay = 300
+Projectile = Revive Detect Dummy.txt
+Speed = 100
+Spread = 360

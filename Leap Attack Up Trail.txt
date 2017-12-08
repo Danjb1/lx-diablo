@@ -1,0 +1,16 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Gravity = 0
+Timer = 0.1
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Explode
+Damage = -1
+
+[Time]
+Type = Explode
+Damage = -1

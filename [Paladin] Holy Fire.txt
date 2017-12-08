@@ -1,0 +1,14 @@
+[General]
+Name = [Paladin] Holy Fire
+Recoil = 0
+Recharge = 3
+Drain = 1
+ROF = 25
+Sound = Crackle Fire.wav
+
+[Projectile]
+Amount = 5
+Speed = 160
+SpeedVar = 5
+Spread = 360
+Projectile = Holy Fire Dummy.txt

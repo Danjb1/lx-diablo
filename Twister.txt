@@ -1,0 +1,30 @@
+[General]
+Type = PRJ_IMAGE
+Image = Twister.png
+Animating = True
+AnimRate = 25
+AnimType = ANI_LOOP
+Trail = TRL_PROJECTILE
+Gravity = -25
+Dampening = 1.05
+Timer = 2
+TimerVar = 0.3
+
+[Hit]
+Type = Carve
+Damage = 15
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+
+[ProjectileTrail]
+Amount = 20
+Speed = 70
+SpeedVar = 50
+Spread = 180
+Delay = 25
+Projectile = Twister Trail.txt

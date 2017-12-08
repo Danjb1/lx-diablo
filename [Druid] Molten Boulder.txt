@@ -1,0 +1,13 @@
+[General]
+Name = [Druid] Molten Boulder
+Recoil = 4
+Recharge = 2.5
+Drain = 21
+ROF = 750
+Sound = Molten Boulder.wav
+
+[Projectile]
+Amount = 1
+Speed = 80
+Spread = 3
+Projectile = Molten Boulder Dummy.txt

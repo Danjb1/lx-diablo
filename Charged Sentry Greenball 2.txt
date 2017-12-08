@@ -1,0 +1,16 @@
+# Explodes into greenball
+
+[General]
+Type = PRJ_IMAGE
+Gravity = 0
+Image = Invisible.png
+Timer = 0.1
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = GreenDirt

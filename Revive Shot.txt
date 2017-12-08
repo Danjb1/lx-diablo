@@ -1,0 +1,17 @@
+# Revive Worm's Shots
+
+[General]
+Type = PRJ_IMAGE
+AngleImages = 18
+Gravity = 0
+Image = Arrow.png
+UseAngle = true
+
+[Hit]
+Type = Explode
+Damage = 10
+Shake = 2
+
+[PlayerHit]
+Type = Injure
+Damage = 2

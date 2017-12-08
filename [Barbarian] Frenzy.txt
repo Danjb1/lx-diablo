@@ -1,0 +1,15 @@
+[General]
+Name = [Barbarian] Frenzy
+Class = WCL_CLOSERANGE
+Recoil = -3
+Recharge = 2.5
+Drain = 8
+ROF = 100
+Sound = Slash.wav
+
+[Projectile]
+Amount = 1
+Speed = 30
+SpeedVar = 5
+Spread = 1
+Projectile = Frenzy Axe.txt

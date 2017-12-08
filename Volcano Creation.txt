@@ -1,0 +1,25 @@
+[General]
+Type = PRJ_IMAGE
+Image = Volcano Creation.png
+Animating = True
+AnimRate = 5
+AnimType = ANI_LOOP
+Dampening = 0.9
+Timer = 0.8
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.5
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 0
+Projectile = Volcano.txt

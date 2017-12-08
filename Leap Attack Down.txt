@@ -1,0 +1,14 @@
+[General]
+Type = PRJ_PIXEL
+Colour1 = 160,160,160
+Dampening = 1
+Gravity = 110
+
+[Hit]
+Type = Explode
+Damage = 1
+Shake = 4
+
+[PlayerHit]
+Type = Injure
+Damage = 2

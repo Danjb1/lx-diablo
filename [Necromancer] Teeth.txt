@@ -1,0 +1,13 @@
+[General]
+Name = [Necromancer] Teeth
+Recoil = 4
+Recharge = 3
+Drain = 34
+ROF = 800
+Sound = Teeth.wav
+
+[Projectile]
+Amount = 20
+Speed = 140
+Spread = 35
+Projectile = Teeth Dummy.txt

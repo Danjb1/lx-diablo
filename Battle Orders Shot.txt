@@ -1,0 +1,18 @@
+[General]
+Type = PRJ_IMAGE
+Image = Battle Orders.png
+Gravity = 0
+Dampening = 0.9
+Timer = 0.15
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Injure
+Damage = -1
+
+[Time]
+Type = Explode
+Damage = -1

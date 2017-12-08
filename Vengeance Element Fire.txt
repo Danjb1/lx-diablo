@@ -1,0 +1,23 @@
+[General]
+Type = PRJ_IMAGE
+Image = Fire Dust.png
+Animating = True
+AnimRate = 10
+AnimType = ANI_LOOP
+Gravity = 90
+Timer = 0.1
+TimerVar = 0.01
+
+[Hit]
+Type = Explode
+Damage = 3
+Shake = 2
+Sound = Crackle Fire.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 2
+
+[Time]
+Type = Explode
+Damage = -1

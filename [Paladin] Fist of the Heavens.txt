@@ -1,0 +1,15 @@
+[General]
+Name = [Paladin] Fist of the Heavens
+Class = WCL_MISSILE
+Recoil = 10
+Recharge = 2
+Drain = 34
+ROF = 700
+Sound = Fist of the Heavens.wav
+
+[Projectile]
+Amount = 1
+Speed = 350
+SpeedVar = 50
+Spread = 5
+Projectile = Fist of the Heavens.txt

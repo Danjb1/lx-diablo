@@ -1,0 +1,20 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Gravity = 0
+Timer = 0.1
+TimerVar = 0.03
+
+[Hit]
+Type = Explode
+Damage = 1
+Shake = 2
+Sound = Dragon Flight Hit.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 1
+
+[Time]
+Type = Explode
+Damage = -1

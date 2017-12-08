@@ -1,0 +1,13 @@
+[General]
+Name = [Druid] Twister
+Recoil = 2
+Recharge = 2.5
+Drain = 9
+ROF = 400
+Sound = Twister.wav
+
+[Projectile]
+Amount = 2
+Speed = 70
+Spread = 30
+Projectile = Twister Dummy.txt

@@ -1,0 +1,16 @@
+[General]
+Name = [Amazon] Freezing Arrow
+Class = WCL_MISSILE
+Recoil = 1
+Recharge = 4
+Drain = 26
+ROF = 500
+Sound = Arrow.wav
+LaserSight = True
+
+[Projectile]
+Amount = 1
+Speed = 230
+SpeedVar = 30
+Spread = 1
+Projectile = Freezing Arrow Shot.txt

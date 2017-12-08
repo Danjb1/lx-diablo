@@ -1,0 +1,15 @@
+[General]
+Name = [Sorceress] Charged Bolt
+Class = WCL_MISSILE
+Recoil = 5
+Recharge = 1
+Drain = 6
+ROF = 350
+Sound = Lightning.wav
+
+[Projectile]
+Amount = 15
+Speed = 40
+SpeedVar = 5
+Spread = 40
+Projectile = Charged Bolt Dummy.txt

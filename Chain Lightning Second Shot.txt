@@ -1,0 +1,24 @@
+[General]
+Type = PRJ_IMAGE
+Image = Lightning.png
+UseAngle = True
+AngleImages = 18
+Trail = TRL_PROJECTILE
+Gravity = 0
+
+[Hit]
+Type = Explode
+Damage = 5
+Shake = 4
+Sound = Lightning.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 34
+
+[ProjectileTrail]
+Amount = 1
+Speed = 0
+Spread = 0
+Delay = 1
+Projectile = Magic Dust.txt

@@ -1,0 +1,28 @@
+[General]
+Type = PRJ_IMAGE
+Image = Decoy Dirt.png
+Animating = True
+AnimRate = 15
+AnimType = ANI_LOOP
+Trail = TRL_PROJECTILE
+Gravity = 50
+Timer = 1.5
+TimerVar = 0.5
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.9
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Dirt
+
+[ProjectileTrail]
+Amount = 3
+Speed = 35
+SpeedVar = 10
+Spread = 360
+Delay = 10000
+Projectile = Decoy Explosion.txt

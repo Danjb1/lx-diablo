@@ -1,0 +1,25 @@
+[General]
+Type = PRJ_IMAGE
+Image = Dragon Flight.png
+Animating = True
+AnimRate = 30
+AnimType = ANI_ONCE
+Gravity = 0
+Dampening = 0.99
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Explode
+Damage = 12
+
+[PlayerHit]
+Type = Injure
+Damage = 25
+
+[ProjectileTrail]
+Amount = 30
+Delay = 20
+Speed = 120
+SpeedVar = 20
+Spread = 180
+Projectile = Dragon Flight Area Damage.txt

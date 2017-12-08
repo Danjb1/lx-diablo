@@ -1,0 +1,29 @@
+[General]
+Type = PRJ_IMAGE
+Image = Lightning Javelin.png
+UseAngle = True
+AngleImages = 18
+Trail = TRL_PROJECTILE
+Gravity = 5
+Timer = 1.5
+
+[Hit]
+Type = Bounce
+BounceCoeff = 1
+
+[PlayerHit]
+Type = Injure
+Damage = 11
+
+[Time]
+Type = Explode
+Damage = 15
+Shake = 2
+Sound = Lightning.wav
+
+[ProjectileTrail]
+Amount = 1
+Speed = 0
+Spread = 0
+Delay = 60
+Projectile = Lightning Dust.txt

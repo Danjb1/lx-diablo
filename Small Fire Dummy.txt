@@ -1,0 +1,25 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Gravity = -50
+Timer = 0.05
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Angle = -90
+Speed = 50
+SpeedVar = 10
+Spread = 60
+Delay = 200
+Projectile = Small Fire.txt

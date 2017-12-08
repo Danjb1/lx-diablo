@@ -1,0 +1,25 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Gravity = 0
+Trail = TRL_PROJECTILE
+Timer = 0.3
+
+[Hit]
+Type = Carve
+Damage = 6
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+
+[ProjectileTrail]
+Amount = 1
+Speed = 110
+SpeedVar = 50
+Spread = 180
+Delay = 9999
+Projectile = Small Fire Dummy.txt

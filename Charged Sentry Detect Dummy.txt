@@ -1,0 +1,24 @@
+# A projectile that goes through the greenball to give out Detect projectiles.
+
+[General]
+Type = PRJ_IMAGE
+Image = nothing.png
+Gravity = 0
+Timer = 0.15
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Projectile = Charged Sentry Detect.txt
+Speed = 800
+Useangle = true

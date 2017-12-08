@@ -1,0 +1,25 @@
+[General]
+Type = PRJ_PIXEL
+Colour1 = 183,61,2
+Gravity = 15
+Timer = 0.4
+TimerVar = 0.1
+Dampening = 0.95
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.5
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 0
+Angle = 90
+Projectile = Volcano Floor.txt

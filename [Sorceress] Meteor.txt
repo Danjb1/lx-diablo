@@ -1,0 +1,13 @@
+[General]
+Name = [Sorceress] Meteor
+Recoil = 0
+Recharge = 1
+Drain = 101
+ROF = 1000
+Sound = Meteor Summon.wav
+
+[Projectile]
+Amount = 1
+Speed = 400
+Spread = 1
+Projectile = Meteor First Shot.txt

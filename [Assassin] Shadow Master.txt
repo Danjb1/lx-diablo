@@ -1,0 +1,14 @@
+[General]
+Name = [Assassin] Shadow Master
+Recoil = 3
+Recharge = 1.5
+Drain = 101
+ROF = 1000
+Sound = Shadow Master.wav
+
+[Projectile]
+Amount = 1
+Speed = 120
+SpeedVar = 10
+Spread = 3
+Projectile = Shadow Master Dummy.txt

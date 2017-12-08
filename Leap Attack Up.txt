@@ -1,0 +1,32 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Trail = TRL_PROJECTILE
+Timer = 0.1
+Gravity = 0
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 2
+Speed = 150
+UseAngle = True
+Angle = 180
+Spread = 20
+Projectile = Leap Attack Down Dummy.txt
+
+[ProjectileTrail]
+Delay = 80
+Amount = 1
+Spread = 2
+UseProjVelocity = True
+Projectile = Leap Attack Up Trail.txt

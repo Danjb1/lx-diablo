@@ -1,0 +1,14 @@
+[General]
+Name = [Druid] Oak Sage
+Recoil = 2
+Recharge = 0
+Drain = 101
+ROF = 1000
+Sound = Oak Sage.wav
+
+[Projectile]
+Amount = 1
+Speed = 20
+SpeedVar = 5
+Spread = 1
+Projectile = Oak Sage.txt

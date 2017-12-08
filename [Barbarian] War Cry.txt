@@ -1,0 +1,13 @@
+[General]
+Name = [Barbarian] War Cry
+Recoil = 0
+Recharge = 3
+Drain = 11
+ROF = 100
+Sound = Taunt.wav
+
+[Projectile]
+Amount = 180
+Speed = 500
+Spread = 180
+Projectile = War Cry Dummy.txt

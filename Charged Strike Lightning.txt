@@ -1,0 +1,17 @@
+[General]
+Type = PRJ_IMAGE
+Image = Charged Bolt.png
+Animating = True
+AnimRate = 20
+AnimType = ANI_LOOP
+Gravity = 0
+
+[Hit]
+Type = Explode
+Damage = 3
+Shake = 1
+Sound = Lightning.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 34

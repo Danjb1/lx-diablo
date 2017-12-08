@@ -1,0 +1,13 @@
+[General]
+Name = [Assassin] Dragon Flight
+Class = WCL_CLOSERANGE
+Recoil = -500
+Recharge = 2
+Drain = 51
+ROF = 800
+Sound = Dragon Flight.wav
+
+[Projectile]
+Amount = 1
+Speed = 200
+Projectile = Dragon Flight First Shot.txt

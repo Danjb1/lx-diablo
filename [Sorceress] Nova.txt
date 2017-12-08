@@ -1,0 +1,13 @@
+[General]
+Name = [Sorceress] Nova
+Recoil = 0
+Recharge = 1
+Drain = 21
+ROF = 150
+Sound = Nova.wav
+
+[Projectile]
+Amount = 360
+Speed = 300
+Spread = 180
+Projectile = Nova Dummy.txt

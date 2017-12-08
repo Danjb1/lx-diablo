@@ -1,0 +1,7 @@
+[General]
+Name = [Special] Teleport
+Recoil = -5000
+Recharge = 1
+Drain = 11
+ROF = 600
+Sound = Teleport.wav

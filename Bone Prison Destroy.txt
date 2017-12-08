@@ -1,0 +1,17 @@
+[General]
+Type = PRJ_PIXEL
+Colour1 = 135,135,135
+Gravity = 0
+Timer = 0.05
+
+[Hit]
+Type = Carve
+Damage = 12
+
+[PlayerHit]
+Type = Injure
+Damage = 6
+
+[Time]
+Type = Explode
+Damage = -1

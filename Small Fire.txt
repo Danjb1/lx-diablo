@@ -1,0 +1,26 @@
+[General]
+Type = PRJ_IMAGE
+Image = Small Fire.png
+Animating = True
+AnimRate = 10
+AnimType = ANI_LOOP
+#Trail = TRL_PROJECTILE
+Trail = TRL_SMOKE
+Gravity = 80
+Timer = 2
+TimerVar = 1
+
+[Hit]
+Type = Carve
+Damage = 1
+Shake = 1
+
+[PlayerHit]
+Type = Explode
+Damage = 3
+Shake = 1
+
+[Time]
+Type = Explode
+Damage = -1
+Shake = 1

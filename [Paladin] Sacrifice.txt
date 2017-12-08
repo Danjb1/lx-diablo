@@ -1,0 +1,14 @@
+[General]
+Name = [Paladin] Sacrifice
+Class = WCL_CLOSERANGE
+Recharge = 2
+Drain = 34
+ROF = 250
+Sound = Slash.wav
+
+[Projectile]
+Amount = 1
+Speed = 150
+SpeedVar = 10
+Spread = 3
+Projectile = Sacrifice Blade.txt

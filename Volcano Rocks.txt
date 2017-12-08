@@ -1,0 +1,23 @@
+[General]
+Type = PRJ_IMAGE
+Image = Molten Boulder.png
+Rotating = True
+RotIncrement = 90
+RotSpeed = 400
+Trail = TRL_SMOKE
+
+[Hit]
+Type = Explode
+Damage = 4
+Shake = 2
+Sound = Volcano Rocks.wav
+Projectiles = True
+
+[PlayerHit]
+Type = Explode
+Damage = 4
+
+[Projectile]
+Amount = 1
+Speed = 0
+Projectile = Big Fire.txt

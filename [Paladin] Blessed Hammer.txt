@@ -1,0 +1,15 @@
+[General]
+Name = [Paladin] Blessed Hammer
+Class = WCL_MISSILE
+Recoil = -1
+Recharge = 2
+Drain = 51
+ROF = 800
+Sound = Throw.wav
+
+[Projectile]
+Amount = 1
+Speed = 140
+SpeedVar = 4
+Spread = 1
+Projectile = Blessed Hammer.txt

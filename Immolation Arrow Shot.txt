@@ -1,0 +1,35 @@
+[General]
+Type = PRJ_IMAGE
+Image = Fire Arrow.png
+UseAngle = True
+AngleImages = 18
+Trail = TRL_PROJECTILE
+Gravity = 10
+
+[Hit]
+Type = Explode
+Damage = 10
+Projectiles = True
+Shake = 4
+Sound = Fire Arrow Hit.wav
+
+[PlayerHit]
+Type = Explode
+Damage = 10
+Projectiles = True
+Shake = 4
+Sound = Fire Arrow Hit.wav
+
+[Projectile]
+Amount = 5
+Speed = 160
+SpeedVar = 40
+Angle = -90
+Spread = 60
+Projectile = Big Fire.txt
+
+[ProjectileTrail]
+Amount = 1
+Speed = 0
+Delay = 60
+Projectile = Fire Dust.txt

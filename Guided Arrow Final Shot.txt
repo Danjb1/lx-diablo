@@ -1,0 +1,24 @@
+[General]
+Type = PRJ_IMAGE
+Image = Guided Arrow.png
+UseAngle = True
+AngleImages = 18
+Trail = TRL_PROJECTILE
+Gravity = 0
+
+[Hit]
+Type = Explode
+Damage = 2
+Shake = 1
+Sound = Arrow Hit.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 15
+
+[ProjectileTrail]
+Amount = 1
+Speed = 0
+Spread = 0
+Delay = 60
+Projectile = Magic Dust.txt

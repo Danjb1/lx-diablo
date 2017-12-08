@@ -1,0 +1,14 @@
+[General]
+Name = [Paladin] Charge
+Class = WCL_CLOSERANGE
+Recoil = -150
+Recharge = 2
+Drain = 34
+ROF = 300
+Sound = Charge.wav
+
+[Projectile]
+Amount = 1
+Speed = 170
+Spread = 0
+Projectile = Charge Blade.txt

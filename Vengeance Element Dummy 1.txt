@@ -1,0 +1,32 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Trail = TRL_PROJECTILE
+Gravity = 0
+Timer = 0.01
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 70
+SpeedVar = 30
+Spread = 360
+Projectile = Vengeance Element Fire.txt
+
+[ProjectileTrail]
+Amount = 1
+Speed = 0
+Spread = 360
+Delay = 100000
+Projectile = Vengeance Element Dummy 2.txt

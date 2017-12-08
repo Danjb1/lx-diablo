@@ -1,0 +1,23 @@
+[General]
+Type = PRJ_IMAGE
+Image = Battle Orders.png
+Gravity = 0
+Timer = 0.04
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 400
+UseAngle = True
+Projectile = Battle Orders Shot.txt

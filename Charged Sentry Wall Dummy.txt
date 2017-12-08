@@ -1,0 +1,31 @@
+# Explodes into greenball and greenball destroy
+
+[General]
+Type = PRJ_IMAGE
+Gravity = 0
+Image = Invisible.png
+Dampening = 0.5
+Timer = 0.001
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 0
+Projectile = Charged Sentry Wall.txt
+
+[ProjectileTrail]
+Amount = 1
+Delay = 9999
+Speed = 0
+Projectile = Charged Sentry Wall Destroy.txt

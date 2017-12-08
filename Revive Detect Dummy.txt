@@ -1,0 +1,24 @@
+# A projectile that goes through the greenball to give out Revive Detect
+
+[General]
+Type = PRJ_IMAGE
+Image = nothing.png
+Gravity = 0
+Timer = 0.15
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Projectile = Revive Detect.txt
+Speed = 100
+Useangle = true

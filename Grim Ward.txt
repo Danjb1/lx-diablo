@@ -1,0 +1,25 @@
+[General]
+Type = PRJ_IMAGE
+Image = Grim Ward.png
+Gravity = 0
+Trail = TRL_PROJECTILE
+Timer = 12
+TimerVar = 2
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.3
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 10
+
+[ProjectileTrail]
+Amount = 45
+Delay = 1
+Speed = 500
+Spread = 180
+Projectile = Grim Ward Knockback.txt

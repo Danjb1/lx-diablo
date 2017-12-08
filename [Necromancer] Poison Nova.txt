@@ -1,0 +1,13 @@
+[General]
+Name = [Necromancer] Poison Nova
+Recoil = -5
+Recharge = 2
+Drain = 34
+ROF = 600
+Sound = Poison Nova.wav
+
+[Projectile]
+Amount = 40
+Speed = 270
+Spread = 180
+Projectile = Poison Nova Dummy.txt

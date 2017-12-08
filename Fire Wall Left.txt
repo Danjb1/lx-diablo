@@ -1,0 +1,25 @@
+[General]
+Type = PRJ_PIXEL
+Colour1 = 200,0,0
+Gravity = 0
+Timer = 1
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Explode
+Damage = 5
+Shake = 2
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 5
+Shake = 2
+
+[ProjectileTrail]
+Amount = 1
+Delay = 50
+Speed = 0
+Projectile = Big Fire Standalone.txt

@@ -1,0 +1,33 @@
+# The main turret. Gives out invisible dummy projectiles in all directions.
+
+[General]
+Type = PRJ_IMAGE
+AnimRate = 25
+AnimType = ANI_LOOP
+Animating = true
+Dampening = 0
+Gravity = 0
+Image = Charged Sentry.png
+Timer = 12
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 15
+#Projectiles = True
+
+#[Projectile]
+#Projectile = Revive Giblets.txt
+
+[ProjectileTrail]
+Amount = 100
+Delay = 600
+Projectile = Charged Sentry Detect Dummy.txt
+Speed = 100
+Spread = 180

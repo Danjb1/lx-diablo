@@ -1,0 +1,28 @@
+[General]
+Type = PRJ_IMAGE
+Image = Small Fire.png
+Animating = True
+AnimRate = 10
+AnimType = ANI_LOOP
+Gravity = 20
+Dampening = 0.95
+Timer = 5
+
+[Hit]
+Type = Bounce
+BounceCoEff = 0
+
+[PlayerHit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Time]
+Type = Explode
+Damage = -1
+
+[Projectile]
+Amount = 1
+Speed = 0
+Spread = 0
+Projectile = Blaze Fire Explosion.txt

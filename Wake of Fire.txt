@@ -1,0 +1,25 @@
+[General]
+Type = PRJ_IMAGE
+UseAngle = True
+AngleImages = 18
+Gravity = 0
+Image = Wake of Fire.png
+Timer = 10
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 15
+
+[ProjectileTrail]
+UseProjVelocity = True
+Speed = 1
+Amount = 1
+Delay = 400
+Projectile = Wake of Fire Dummy.txt

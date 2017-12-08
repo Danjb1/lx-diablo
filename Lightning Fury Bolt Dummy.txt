@@ -1,0 +1,28 @@
+[General]
+Type = PRJ_IMAGE
+Image = Lightning Javelin.png
+UseAngle = True
+AngleImages = 18
+Trail = TRL_NONE
+Gravity = 5
+Timer = 0.05
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 250
+SpeedVar = 10
+Spread = 40
+UseAngle = True
+Projectile = Lightning Fury Bolt.txt

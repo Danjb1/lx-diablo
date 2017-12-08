@@ -1,0 +1,12 @@
+[General]
+Name = [Assassin] Psychic Hammer
+Recoil = -1
+Recharge = 3
+Drain = 34
+ROF = 850
+Sound = Psychic Hammer.wav
+
+[Projectile]
+Amount = 1
+Speed = -130
+Projectile = Psychic Hammer Shot.txt

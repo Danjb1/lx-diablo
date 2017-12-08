@@ -1,0 +1,16 @@
+[General]
+Type = PRJ_IMAGE
+Image = Fire Blast Explosion.png
+Animating = True
+AnimRate = 40
+AnimType = ANI_ONCE
+Dampening = 0.995
+Gravity = 0
+
+[Hit]
+Type = Bounce
+BounceCoEff = 0
+
+[PlayerHit]
+Type = Explode
+Damage = 1

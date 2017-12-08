@@ -1,0 +1,14 @@
+[General]
+Name = [Assassin] Blade Fury
+Recoil = 5
+Recharge = 3
+Drain = 21
+ROF = 250
+Sound = Throw.wav
+
+[Projectile]
+Amount = 3
+Speed = 120
+SpeedVar = 20
+Spread = 10
+Projectile = Blade Fury.txt

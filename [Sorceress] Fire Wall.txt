@@ -1,0 +1,14 @@
+[General]
+Name = [Sorceress] Fire Wall
+Recoil = 5
+Recharge = 2
+Drain = 51
+ROF = 800
+Sound = Fire Wall.wav
+
+[Projectile]
+Amount = 1
+Speed = 200
+SpeedVar = 50
+Spread = 1
+Projectile = Fire Wall First Shot.txt

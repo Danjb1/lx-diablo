@@ -1,0 +1,25 @@
+[General]
+Type = PRJ_IMAGE
+Image = Raven.png
+UseAngle = True
+AngleImages = 18
+Gravity = -500
+Dampening = 0.99
+
+[Hit]
+Type = Explode
+Damage = 3
+Projectiles = True
+Sound = exp3a.wav
+
+[PlayerHit]
+Type = Explode
+Damage = 18
+
+[Projectile]
+Amount = 30
+Spread = 90
+Speed = 180
+UseAngle = True
+Angle = 180
+Projectile = Raven Dummy Particles.txt

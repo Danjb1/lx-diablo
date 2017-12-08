@@ -1,0 +1,35 @@
+[General]
+Type = PRJ_PIXEL
+Colour1 = 200,0,0
+Gravity = 0
+Timer = 0.5
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Explode
+Damage = 5
+Projectiles = True
+Shake = 2
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 5
+Projectiles = True
+Shake = 2
+
+[Projectile]
+Amount = 1
+Speed = 100
+Spread = 0
+Angle = 180
+UseAngle = True
+Projectile = Fire Wall Left.txt
+
+[ProjectileTrail]
+Amount = 1
+Delay = 50
+Speed = 0
+Projectile = Big Fire Standalone.txt

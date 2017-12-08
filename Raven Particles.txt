@@ -1,0 +1,30 @@
+[General]
+Type = PRJ_PIXEL
+Colour1 = 126,126,163
+Colour2 = 164,164,189
+Dampening = 0.99
+Timer = 0.2
+TimerVar = 0.1
+
+[Hit]
+Type = Explode
+Damage = 2
+Shake = 2
+Sound = exp3b.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 9
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 2
+Speed = 180
+Speedvar = 20
+Spread = 180
+UseAngle = True
+Projectile = Raven Particles 2.txt

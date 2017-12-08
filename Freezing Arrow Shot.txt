@@ -1,0 +1,33 @@
+[General]
+Type = PRJ_IMAGE
+Image = Freezing Arrow.png
+UseAngle = True
+AngleImages = 18
+Trail = TRL_PROJECTILE
+Gravity = 5
+
+[Hit]
+Type = Explode
+Damage = 2
+Shake = 1
+Sound = Freezing Arrow Hit.wav
+
+[PlayerHit]
+#Type = GreenDirt
+#Type = Dirt
+Type = Injure
+Damage = 31
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 0
+Spread = 0
+Projectile = Freezeball.txt
+
+[ProjectileTrail]
+Amount = 1
+Speed = 0
+Spread = 0
+Delay = 60
+Projectile = Cold Dust.txt

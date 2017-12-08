@@ -1,0 +1,15 @@
+[General]
+Name = [Amazon] Immolation Arrow
+Class = WCL_MISSILE
+Recoil = 2
+Recharge = 2
+Drain = 34
+ROF = 1000
+Sound = Arrow.wav
+
+[Projectile]
+Amount = 1
+Speed = 270
+SpeedVar = 20
+Spread = 2
+Projectile = Immolation Arrow Shot.txt

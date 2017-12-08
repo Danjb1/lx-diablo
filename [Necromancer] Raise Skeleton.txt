@@ -1,0 +1,13 @@
+[General]
+Name = [Necromancer] Raise Skeleton
+Recoil = 0
+Recharge = 1
+Drain = 34
+ROF = 800
+Sound = Raise Skeleton.wav
+
+[Projectile]
+Amount = 1
+Speed = 500
+Spread = 1
+Projectile = Skeleton Placement.txt

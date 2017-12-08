@@ -1,0 +1,14 @@
+[General]
+Name = [Necromancer] Bone Spear
+Recoil = 5
+Recharge = 2
+Drain = 11
+ROF = 300
+Sound = Bone Spear.wav
+
+[Projectile]
+Amount = 1
+Speed = 350
+SpeedVar = 20
+Spread = 3
+Projectile = Bone Spear.txt

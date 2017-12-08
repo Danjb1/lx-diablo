@@ -1,0 +1,35 @@
+[General]
+Type = PRJ_IMAGE
+Image = Javelin.png
+UseAngle = True
+AngleImages = 18
+Trail = TRL_PROJECTILE
+Gravity = 17
+
+[Hit]
+Type = Explode
+Damage = 5
+Projectiles = True
+Shake = 2
+Sound = Javelin Hit.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 5
+Projectiles = True
+Shake = 2
+Sound = Javelin Hit.wav 
+
+[Projectile]
+Amount = 4
+Speed = 100
+SpeedVar = 50
+Spread = 360
+Projectile = Plague Gas.txt
+
+[ProjectileTrail]
+Amount = 3
+Speed = 20
+Spread = 360
+Delay = 50
+Projectile = Plague Gas Trail.txt

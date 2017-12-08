@@ -1,0 +1,14 @@
+[General]
+Name = [Assassin] Lightning Sentry
+Recoil = 4
+Recharge = 0.8
+Drain = 51
+ROF = 800
+Sound = Charged Sentry.wav
+
+[Projectile]
+Amount = 1
+Speed = 50
+SpeedVar = 5
+Spread = 1
+Projectile = Charged Sentry Placement.txt

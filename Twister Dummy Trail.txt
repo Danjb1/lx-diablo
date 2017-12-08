@@ -1,0 +1,20 @@
+[General]
+Type = PRJ_PIXEL
+Colour1 = 216,200,169
+Colour2 = 203,194,182
+Gravity = 0
+Dampening = 0.95
+Timer = 0.5
+TimerVar = 0.2
+
+[Hit]
+Type = Carve
+Damage = 6
+
+[PlayerHit]
+Type = Explode
+Damage = -1
+
+[Time]
+Type = Explode
+Damage = -1

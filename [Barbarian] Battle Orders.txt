@@ -1,0 +1,13 @@
+[General]
+Name = [Barbarian] Battle Orders
+Recoil = 0
+Recharge = 1
+Drain = 21
+ROF = 120
+Sound = Battle Orders.wav
+
+[Projectile]
+Amount = 180
+Speed = 400
+Spread = 360
+Projectile = Battle Orders Dummy.txt

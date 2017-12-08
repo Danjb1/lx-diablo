@@ -1,0 +1,15 @@
+[General]
+Name = [Amazon] Charged Strike
+Class = WCL_CLOSERANGE
+Recoil = -1
+Recharge = 4
+Drain = 11
+ROF = 220
+Sound = Javelin Thrust.wav
+
+[Projectile]
+Amount = 1
+Speed = 100
+SpeedVar = 5
+Spread = 1
+Projectile = Charged Strike Javelin.txt

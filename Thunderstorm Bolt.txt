@@ -1,0 +1,23 @@
+[General]
+Type = PRJ_PIXEL
+Colour1 = 255,255,255
+Trail = TRL_PROJECTILE
+Timer = 0.8
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Injure
+Damage = 11
+
+[Time]
+Type = Explode
+Damage = -1
+
+[ProjectileTrail]
+Amount = 1
+Delay = 1
+Speed = 0
+Spread = 0
+Projectile = Thunderstorm Trail.txt

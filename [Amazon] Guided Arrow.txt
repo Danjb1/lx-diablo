@@ -1,0 +1,15 @@
+[General]
+Name = [Amazon] Guided Arrow
+Class = WCL_MISSILE
+Recoil = 1
+Recharge = 5
+Drain = 26
+ROF = 370
+Sound = Arrow.wav
+
+[Projectile]
+Amount = 1
+Speed = 120
+SpeedVar = 10
+Spread = 2
+Projectile = Guided Arrow Shot.txt

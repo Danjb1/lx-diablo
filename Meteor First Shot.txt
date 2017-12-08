@@ -1,0 +1,22 @@
+[General]
+Type = PRJ_PIXEL
+Colour1 = 200,0,0
+Gravity = 10
+
+[Hit]
+Type = Explode
+Damage = -1
+Projectiles = True
+Sound = Meteor Target.wav
+
+[PlayerHit]
+Type = Explode
+Damage = -1
+Projectiles = True
+Sound = Meteor Target.wav
+
+[Projectile]
+Amount = 1
+Speed = 0
+Spread = 0
+Projectile = Meteor Target.txt

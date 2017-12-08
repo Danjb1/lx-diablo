@@ -1,0 +1,26 @@
+[General]
+Type = PRJ_PIXEL
+Colour1 = 250,103,5
+Gravity = 10
+Timer = 0.3
+
+[Hit]
+Type = Explode
+Damage = -1
+Projectiles = True
+Shake = 4
+Sound = Wake of Fire.wav
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+UseAngle = True
+Speed = 1
+Projectile = Wake of Fire.txt

@@ -1,0 +1,21 @@
+# Sits on top of the turret, giving out Revive Greenball 2 projectiles
+
+[General]
+Type = PRJ_IMAGE
+Image = nothing.png
+Dampening = 0
+Gravity = 0
+Timer = 7.8
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[ProjectileTrail]
+Amount = 1
+Delay = 30
+Projectile = Revive Greenball 2.txt
+Speed = 0

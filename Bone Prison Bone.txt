@@ -1,0 +1,25 @@
+[General]
+Type = PRJ_IMAGE
+Image = Bone Wall.png
+Gravity = 0
+Timer = 3
+TimerVar = 0.5
+Dampening = 0.9
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Explode
+Damage = -1
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 15
+Speed = 100
+Spread = 180
+Projectile = Bone Prison Destroy.txt

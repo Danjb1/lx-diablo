@@ -1,0 +1,22 @@
+[General]
+Type = PRJ_IMAGE
+Image = Big Fire.png
+Animating = True
+AnimRate = 10
+AnimType = ANI_LOOP
+Gravity = 0
+Timer = 5
+TimerVar = 1
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.5
+
+[PlayerHit]
+Type = Explode
+Damage = 18
+
+[Time]
+Type = Explode
+Damage = 10
+Shake = 4

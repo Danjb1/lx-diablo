@@ -1,0 +1,22 @@
+[General]
+Type = PRJ_IMAGE
+Image = Charge Blade.png
+UseAngle = True
+AngleImages = 18
+Gravity = 5
+Timer = 0.25
+
+[Hit]
+Type = Explode
+Damage = 2
+Shake = 1
+Sound = Clang.wav
+
+[PlayerHit] 
+Type = Injure
+Damage = 26
+
+[Time]
+Type = Explode
+Damage = 2
+Shake = 1

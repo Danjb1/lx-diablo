@@ -1,0 +1,31 @@
+[General]
+Type = PRJ_IMAGE
+Image = Javelin.png
+UseAngle = True
+AngleImages = 18
+Gravity = 2
+Dampening = 0.95
+Timer = 0.3
+
+[Hit]
+Type = Explode
+Damage = 2
+Shake = 1
+Sound = Javelin Hit.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 15
+Projectiles = True
+
+[Time]
+Type = Explode
+Damage = -1
+
+[Projectile]
+Amount = 4
+Speed = 40
+SpeedVar = 5
+Spread = 30
+UseAngle = True
+Projectile = Charged Strike Lightning Dummy.txt

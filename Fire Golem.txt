@@ -1,0 +1,34 @@
+[General]
+Type = PRJ_IMAGE
+Image = Fire Golem.png
+UseAngle = True
+AngleImages = 18
+Trail = TRL_PROJECTILE
+Gravity = 70
+Timer = 30
+TimerVar = 10
+
+[Hit]
+Type = Bounce
+BounceCoeff = 1
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 15
+Projectiles = True
+
+[Projectile]
+Amount = 6
+Speed = 170
+SpeedVar = 50
+Spread = 180
+Projectile = Big Fire.txt
+
+[ProjectileTrail]
+Amount = 1
+Speed = 0
+Delay = 50
+Projectile = Fire Golem Trail.txt

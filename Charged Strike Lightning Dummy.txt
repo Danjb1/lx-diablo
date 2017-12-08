@@ -1,0 +1,28 @@
+[General]
+Type = PRJ_IMAGE
+Image = Charged Bolt.png
+Animating = True
+AnimRate = 20
+AnimType = ANI_LOOP
+Gravity = 0
+Timer = 0.5
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 40
+SpeedVar = 5
+Spread = 0
+UseAngle = True
+Projectile = Charged Strike Lightning.txt

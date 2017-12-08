@@ -1,0 +1,17 @@
+[General]
+Type = PRJ_IMAGE
+Image = Volcano Debris.png
+Rotating = True
+RotIncrement = 90
+RotSpeed = 400
+Trail = TRL_SMOKE
+
+[Hit]
+Type = Explode
+Damage = 4
+Shake = 2
+Sound = Crackle Fire.wav
+
+[PlayerHit]
+Type = Explode
+Damage = 4

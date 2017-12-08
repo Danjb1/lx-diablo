@@ -1,0 +1,17 @@
+[General]
+Type = PRJ_IMAGE
+Image = Poison Cloud Small.png
+Animating = True
+AnimRate = 10
+AnimType = ANI_ONCE
+Trail = TRL_NONE
+Gravity = -3
+Dampening = 0.95
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.5
+
+[PlayerHit]
+Type = Injure
+Damage = 3

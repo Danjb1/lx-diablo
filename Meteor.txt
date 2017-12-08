@@ -1,0 +1,38 @@
+[General]
+Type = PRJ_IMAGE
+Image = Meteor.png
+Animating = True
+AnimRate = 15
+AnimType = ANI_LOOP
+Trail = TRL_PROJECTILE
+Gravity = 100
+Timer = 1
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Explode
+Damage = 10
+Projectiles = True
+Shake = 4
+
+[Time]
+Type = Explode
+Damage = 10
+Projectiles = True
+Shake = 4
+
+[Projectile]
+Amount = 10
+Speed = 200
+SpeedVar = 50
+Spread = 360
+Projectile = Big Fire.txt
+
+[ProjectileTrail]
+Amount = 5
+Delay = 50
+Speed = 50
+Spread = 360
+Projectile = Meteor Digger.txt

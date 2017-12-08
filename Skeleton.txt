@@ -1,0 +1,22 @@
+[General]
+Type = PRJ_IMAGE
+Image = Skeleton.png
+Animating = True
+AnimRate = 2
+AnimType = ANI_LOOP 
+Timer = 8
+TimerVar = 2
+
+[Hit]
+Type = Bounce
+BounceCoeff = 1
+BounceExplode = 1
+
+[PlayerHit] 
+Type = Injure
+Damage = 40
+
+[Time]
+Type = Explode
+Damage = 5
+Shake = 2

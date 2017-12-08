@@ -1,0 +1,13 @@
+[General]
+Name = [Sorceress] Chain Lightning
+Class = WCL_MISSILE
+Recoil = 2
+Recharge = 2
+Drain = 26
+ROF = 500
+Sound = Lightning.wav
+
+[Projectile]
+Amount = 1
+Speed = 280
+Projectile = Chain Lightning First Shot.txt

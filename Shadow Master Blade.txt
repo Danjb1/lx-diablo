@@ -1,0 +1,17 @@
+[General]
+Type = PRJ_IMAGE
+Image = Shadow Blade.png
+Rotating = True
+RotIncrement = 22.5
+RotSpeed = 1000
+Dampening = 0.995
+
+[Hit]
+Type = Explode
+Damage = 3
+Shake = 1
+Sound = Shadow Blade Hit.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 11

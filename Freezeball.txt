@@ -1,0 +1,35 @@
+[General]
+Type = PRJ_IMAGE
+Image = Freezeball.png
+Animating = True
+AnimRate = 10
+AnimType = ANI_LOOP
+Gravity = 0
+Trail = TRL_PROJECTILE
+Timer = 2
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Shake = 2
+Projectiles = True
+
+[Projectile]
+Amount = 90
+Spread = 360
+Speed = 20
+Projectile = Freeze Cleanup.txt
+
+[ProjectileTrail]
+Amount = 1
+Delay = 9999
+Speed = 50
+Speedvar = 30
+Spread = 360
+Projectile = Freezify.txt

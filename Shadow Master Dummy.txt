@@ -1,0 +1,28 @@
+[General]
+Type = PRJ_IMAGE
+Image = Shadow Master.png
+Animating = True
+AnimRate = 4
+AnimType = ANI_LOOP
+Dampening = 0.995
+Timer = 0.3
+TimerVar = 0.1
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.4
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 100
+SpeedVar = 5
+UseAngle = True
+Projectile = Shadow Master.txt

@@ -1,0 +1,28 @@
+[General]
+Type = PRJ_IMAGE
+Image = Vengeance Blade.png
+Rotating = True
+RotIncrement = 45
+RotSpeed = 700
+Gravity = 10
+Timer = 0.12
+
+[Hit]
+Type = Explode
+Damage = 5
+
+[PlayerHit]
+Type = Injure
+Damage = 15
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 250
+SpeedVar = 10
+UseAngle = True
+Projectile = Vengeance Blade.txt

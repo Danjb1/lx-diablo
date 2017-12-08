@@ -1,0 +1,25 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Gravity = 0
+Timer = 0.2
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Time]
+Type = Explode
+Damage = -1
+
+[Projectile]
+Amount = 1
+Speed = 500
+Angle = 180
+UseAngle = True
+Projectile = Guided Arrow Returning.txt

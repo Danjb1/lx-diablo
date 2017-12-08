@@ -1,0 +1,26 @@
+[General]
+Type = PRJ_IMAGE
+Image = Holy Bolt.png
+Rotating = True
+RotIncrement = 180
+RotSpeed = 650
+Trail = TRL_PROJECTILE
+Gravity = 5
+Dampening = 1.05
+
+[Hit]
+Type = Explode
+Damage = 1
+Shake = 1
+Sound = Holy Bolt Hit.wav
+
+[PlayerHit]
+Type = Injure
+Damage = -11
+
+[ProjectileTrail]
+Amount = 1
+Speed = 0
+Spread = 0
+Delay = 60
+Projectile = Cold Dust.txt

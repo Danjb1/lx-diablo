@@ -1,0 +1,15 @@
+[General]
+Name = [Druid] Arctic Blast
+Class = WCL_CLOSERANGE
+Recoil = 1
+Recharge = 1.75
+Drain = 2
+ROF = 15
+Sound = Arctic Blast.wav
+
+[Projectile]
+Amount = 5
+Speed = 240
+SpeedVar = 30
+Spread = 14
+Projectile = Arctic Blast.txt

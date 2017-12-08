@@ -1,0 +1,13 @@
+[General]
+Name = [Druid] Poison Creeper
+Recoil = 0
+Recharge = 1.5
+Drain = 26
+ROF = 750
+Sound = Poison Creeper.wav
+
+[Projectile]
+Amount = 1
+Speed = 160
+Spread = 2
+Projectile = Poison Creeper Dummy.txt

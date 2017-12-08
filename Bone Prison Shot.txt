@@ -1,0 +1,20 @@
+[General]
+Type = PRJ_PIXEL
+Colour1 = 135,135,135
+Gravity = 30
+
+[Hit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[PlayerHit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 80
+Speed = 1000
+Spread = 180
+Projectile = Bone Prison Dummy.txt

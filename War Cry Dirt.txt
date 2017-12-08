@@ -1,0 +1,27 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Animating = True
+AnimRate = 30
+AnimType = ANI_LOOP
+Gravity = 0
+Dampening = 0.95
+Trail = TRL_PROJECTILE
+Timer = 0.01
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Dirt
+
+[Time]
+Type = Dirt
+
+[ProjectileTrail]
+Delay = 9999
+Amount = 1
+Speed = 40
+Spread = 360
+Projectile = War Cry Stun Effect.txt

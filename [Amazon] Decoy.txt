@@ -1,0 +1,15 @@
+[General]
+Name = [Amazon] Decoy
+Class = WCL_GRENADE
+Recoil = 50
+Recharge = 0.5
+Drain = 101
+ROF = 1000
+Sound = Decoy.wav
+
+[Projectile]
+Amount = 1
+Speed = 110
+SpeedVar = 5
+Spread = 2
+Projectile = Decoy.txt

@@ -1,0 +1,14 @@
+[General]
+Name = [Druid] Rabies
+Recoil = -1
+Recharge = 2
+Drain = 34
+ROF = 800
+Sound = Growl.wav
+
+[Projectile]
+Amount = 1
+Speed = 60
+SpeedVar = 5
+Spread = 2
+Projectile = Rabies Jaws.txt

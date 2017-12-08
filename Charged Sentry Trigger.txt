@@ -1,0 +1,21 @@
+# An invisible particle sent back to the turret. Triggers Charged Sentry Shot.
+
+[General]
+Type  =  PRJ_IMAGE
+Gravity = 0
+Image = nothing.png
+
+[Hit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[PlayerHit]
+Type = Nothing
+
+[Projectile]
+Amount = 1
+Angle = 180
+UseAngle = True
+Projectile = Charged Sentry Shot Dummy.txt
+Speed = 1000

@@ -1,0 +1,18 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Gravity = 0
+Timer = 0.1
+
+[Hit]
+Type = Carve
+Damage = 20
+Shake = 1
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Carve
+Damage = 20
+Shake = 1

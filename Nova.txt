@@ -1,0 +1,20 @@
+[General]
+Type = PRJ_IMAGE
+Image = Lightning Dust.png
+Animating = True
+AnimRate = 10
+AnimType = ANI_LOOP
+Gravity = 0
+Timer = 0.1
+
+[Hit]
+Type = Carve
+Damage = 2
+
+[PlayerHit]
+Type = Injure
+Damage = 1
+
+[Time]
+Type = Explode
+Damage = -1

@@ -1,0 +1,24 @@
+[General]
+Type = PRJ_IMAGE
+Image = Cobra Strike.png
+Animating = True
+AnimRate = 30
+AnimType = ANI_ONCE
+Gravity = 0
+Dampening = 0.99
+
+[Hit]
+Type = Carve
+Damage = 8
+
+[PlayerHit]
+Type = Explode
+Damage = 15
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 1000
+Angle = 180
+UseAngle = True
+Projectile = Cobra Strike Heal Dummy.txt

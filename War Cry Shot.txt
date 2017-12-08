@@ -1,0 +1,27 @@
+[General]
+Type = PRJ_IMAGE
+Image = War Cry.png
+Animating = True
+AnimRate = 30
+AnimType = ANI_LOOP
+Gravity = 0
+Timer = 0.1
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Injure
+Damage = 8
+Projectiles = True
+
+[Time]
+Type = Explode
+Damage = -1
+
+[Projectile]
+Amount = 8
+Speed = 50
+Spread = 180
+Projectile = War Cry Dirt.txt

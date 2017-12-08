@@ -1,0 +1,15 @@
+[General]
+Type = PRJ_IMAGE
+Image = Invisible.png
+Gravity = 0
+Timer = 0.001
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Dirt

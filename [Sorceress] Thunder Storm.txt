@@ -1,0 +1,13 @@
+[General]
+Name = [Sorceress] Thunder Storm
+Recoil = 0
+Recharge = 1
+Drain = 1
+ROF = 150
+Sound = Crackle Electric.wav
+
+[Projectile]
+Amount = 7
+Speed = 500
+Spread = 60
+Projectile = Thunderstorm Detect.txt

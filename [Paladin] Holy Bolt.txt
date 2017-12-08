@@ -1,0 +1,15 @@
+[General]
+Name = [Paladin] Holy Bolt
+Class = WCL_MISSILE
+Recoil = 0
+Recharge = 3
+Drain = 11
+ROF = 500
+Sound = Holy Bolt.wav
+
+[Projectile]
+Amount = 1
+Speed = 180
+SpeedVar = 20
+Spread = 3
+Projectile = Holy Bolt Shot.txt

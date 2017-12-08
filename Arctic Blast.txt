@@ -1,0 +1,16 @@
+[General]
+Type = PRJ_IMAGE
+Image = Arctic Blast.png
+Animating = True
+AnimRate = 10
+AnimType = ANI_ONCE
+Gravity = 10
+Dampening = 0.97
+
+[Hit]
+Type = Carve
+Damage = 3
+
+[PlayerHit]
+Type = Injure
+Damage = 1

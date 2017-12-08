@@ -1,0 +1,30 @@
+[General]
+Type = PRJ_IMAGE
+Image = Poison Cloud.png
+Animating = True
+AnimRate = 10
+AnimType = ANI_LOOP
+Trail = TRL_PROJECTILE
+Gravity = -3
+Dampening = 0.9
+Timer = 1.5
+TimerVar = 0.5
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.5
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+
+[ProjectileTrail]
+Amount = 1
+Speed = 50
+SpeedVar = 20
+Spread = 360
+Delay = 80
+Projectile = Plague Gas Small.txt

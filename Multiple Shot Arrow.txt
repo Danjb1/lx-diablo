@@ -1,0 +1,17 @@
+[General]
+Type = PRJ_IMAGE
+Image = Arrow.png
+UseAngle = True
+AngleImages = 18
+Trail = TRL_NONE
+Gravity = 1
+
+[Hit]
+Type = Explode
+Damage = 3
+Shake = 1
+Sound = Arrow Hit.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 8

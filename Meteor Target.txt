@@ -1,0 +1,28 @@
+[General]
+Type = PRJ_IMAGE
+Image = Meteor Target.png
+Animating = True
+AnimRate = 30
+AnimType = ANI_LOOP
+Trail = TRL_PROJECTILE
+Gravity = 0
+Timer = 1.5
+
+[Hit]
+Type = Bounce
+BounceCoEff = 0
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 5
+Shake = 4
+
+[ProjectileTrail]
+Amount = 1
+Speed = 0
+Spread = 0
+Delay = 10000
+Projectile = Meteor Launcher.txt

@@ -1,0 +1,13 @@
+[General]
+Name = [Barbarian] Whirlwind
+Recoil = -200
+Recharge = 2
+Drain = 34
+ROF = 400
+Sound = Whirlwind.wav
+
+[Projectile]
+Amount = 20
+Speed = -300
+Spread = 5
+Projectile = Whirlwind Dummy.txt

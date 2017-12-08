@@ -1,0 +1,29 @@
+[General]
+Type = PRJ_IMAGE
+Image = Oak Sage.png
+Animating = True
+AnimRate = 8
+AnimType = ANI_LOOP
+Trail = TRL_PROJECTILE
+Gravity = 10
+Timer = 30
+TimerVar = 10
+
+[Hit]
+Type = Bounce
+BounceCoeff = 1
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 5
+Shake = 2
+
+[ProjectileTrail]
+Amount = 30
+Speed = 150
+Spread = 180
+Delay = 500
+Projectile = Oak Sage Heal Dummy.txt

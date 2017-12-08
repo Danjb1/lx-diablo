@@ -1,0 +1,13 @@
+[General]
+Name = [Necromancer] Fire Golem
+Recoil = 5
+Recharge = 0
+Drain = 101
+ROF = 1000
+Sound = Fire Golem.wav
+
+[Projectile]
+Amount = 1
+Speed = 70
+Spread = 3
+Projectile = Fire Golem Dummy.txt

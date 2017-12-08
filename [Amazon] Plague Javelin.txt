@@ -1,0 +1,15 @@
+[General]
+Name = [Amazon] Plague Javelin
+Class = WCL_MISSILE
+Recoil = 2
+Recharge = 1
+Drain = 51
+ROF = 2000
+Sound = Throw.wav
+
+[Projectile]
+Amount = 1
+Speed = 140
+SpeedVar = 10
+Spread = 3
+Projectile = Plague Javelin Shot.txt

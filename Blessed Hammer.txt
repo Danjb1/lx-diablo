@@ -1,0 +1,37 @@
+[General]
+Type = PRJ_IMAGE
+Image = Blessed Hammer.png
+Rotating = True
+RotIncrement = 45
+RotSpeed = 500
+Trail = TRL_PROJECTILE
+Gravity = 110
+Timer = 2
+
+[Hit]
+Type = Bounce
+BounceCoEff = 0.9
+
+[PlayerHit]
+Type = Injure
+Damage = 40
+
+[Time]
+Type = Explode
+Damage = 5
+Projectiles = True
+
+[Projectile]
+Amount = 25
+Speed = 40
+SpeedVar = 10
+Spread = 360
+Projectile = Magic Dust Harmful.txt
+
+[ProjectileTrail]
+Amount = 5
+Speed = 40
+SpeedVar = 10
+Spread = 360
+Delay = 200
+Projectile = Magic Dust.txt

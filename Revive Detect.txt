@@ -1,0 +1,28 @@
+# An invisible seeker particle.
+# When it hits a player, it sends a signal back to the turret (Revive Trigger).
+
+[General]
+Type = PRJ_IMAGE
+Image = nothing.png
+Gravity = 0
+Timer = 0.8
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Time]
+Type = Explode
+Damage = -1
+
+[Projectile]
+Amount = 1
+Angle = 180
+Projectile = Revive Trigger.txt
+Speed = 100
+Useangle = true

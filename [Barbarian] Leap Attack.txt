@@ -1,0 +1,14 @@
+[General]
+Name = [Barbarian] Leap Attack
+Recoil = 0
+Recharge = 3.5
+Drain = 51
+ROF = 1000
+Sound = Slash.wav
+
+[Projectile]
+Amount = 60
+Speed = -100
+SpeedVar = 20
+Spread = 5
+Projectile = Leap Attack Prepare.txt

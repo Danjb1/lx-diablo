@@ -1,0 +1,20 @@
+[General]
+Type = PRJ_IMAGE
+Image = Bone Ring.png
+Animating = True
+AnimRate = 20
+AnimType = ANI_LOOP
+Gravity = 5
+Timer = 0.7
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Explode
+Damage = -1
+
+[Time]
+Type = Explode
+Damage = -1

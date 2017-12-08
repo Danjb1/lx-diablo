@@ -1,0 +1,31 @@
+[General]
+Type = PRJ_PIXEL
+Colour1 = 200,0,0
+Gravity = 20
+Timer = 0.2
+
+[Hit]
+Type = Explode
+Damage = 5
+Projectiles = True
+Shake = 2
+
+[PlayerHit]
+Type = Explode
+Damage = 5
+Projectiles = True
+Shake = 2
+
+[Time]
+Type = Explode
+Damage = 5
+Projectiles = True
+Shake = 2
+
+[Projectile]
+Amount = 1
+Speed = 100
+Spread = 0
+Angle = 90
+UseAngle = True
+Projectile = Fire Wall Right.txt

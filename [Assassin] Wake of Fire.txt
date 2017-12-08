@@ -1,0 +1,14 @@
+[General]
+Name = [Assassin] Wake of Fire
+Recoil = 3
+Recharge = 1.5
+Drain = 101
+ROF = 1000
+Sound = Throw.wav
+
+[Projectile]
+Amount = 1
+Speed = 90
+SpeedVar = 5
+Spread = 1
+Projectile = Wake of Fire Placement.txt

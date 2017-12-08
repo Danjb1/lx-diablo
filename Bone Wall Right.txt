@@ -1,0 +1,33 @@
+[General]
+Type = PRJ_PIXEL
+Colour1 = 135,135,135
+Gravity = 0
+Timer = 0.5
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 320
+Spread = 0
+Angle = 180
+UseAngle = True
+Projectile = Bone Wall Left.txt
+
+[ProjectileTrail]
+Amount = 6
+Delay = 50
+Speed = 100
+SpeedVar = 10
+Spread = 180
+Projectile = Bone Wall Bone.txt

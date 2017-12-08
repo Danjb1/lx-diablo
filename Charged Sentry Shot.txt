@@ -1,0 +1,26 @@
+# Charged Sentry's Shots
+
+[General]
+Type = PRJ_IMAGE
+AngleImages = 18
+Gravity = 0
+Image = Charged Sentry Shot.png
+UseAngle = true
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Explode
+Damage = 10
+Shake = 2
+Sound = Charged Sentry Shot.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 21
+
+[ProjectileTrail]
+Amount = 1
+Speed = 0
+Spread = 0
+Delay = 1
+Projectile = Lightning Dust.txt

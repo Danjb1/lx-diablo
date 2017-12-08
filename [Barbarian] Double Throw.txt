@@ -1,0 +1,14 @@
+[General]
+Name = [Barbarian] Double Throw
+Recoil = 4
+Recharge = 3
+Drain = 15
+ROF = 260
+Sound = Throw.wav
+
+[Projectile]
+Amount = 1
+Speed = 140
+SpeedVar = 30
+Spread = 3
+Projectile = Double Throw Axe.txt

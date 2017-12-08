@@ -1,0 +1,23 @@
+[General]
+Type = PRJ_IMAGE
+Image = Wake of Fire Flame.png
+Animating = True
+AnimRate = 30
+AnimType = ANI_LOOP
+Trail = TRL_NONE
+Gravity = 5
+Dampening = 0.995
+Timer = 0.6
+TimerVar = 0.2
+
+[Hit]
+Type = Carve
+Damage = 4
+
+[PlayerHit]
+Type = Injure
+Damage = 4
+
+[Time]
+Type = Explode
+Damage = -1

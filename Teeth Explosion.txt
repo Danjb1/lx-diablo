@@ -1,0 +1,13 @@
+[General]
+Type = PRJ_IMAGE
+Image = Teeth Explosion.png
+Animating = True
+AnimRate = 25
+AnimType = ANI_ONCE
+Gravity = 0
+
+[Hit]
+Type = Bounce
+
+[PlayerHit]
+Type = Nothing

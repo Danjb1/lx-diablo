@@ -1,0 +1,76 @@
+[General]
+ModName = Diablo v0.9b
+
+[Weapons]
+NumWeapons = 57
+Weapon1 = [Amazon] Guided Arrow.txt
+Weapon2 = [Amazon] Decoy.txt
+Weapon3 = [Amazon] Charged Strike.txt
+Weapon4 = [Amazon] Freezing Arrow.txt
+Weapon5 = [Amazon] Immolation Arrow.txt
+Weapon6 = [Amazon] Multiple Shot.txt
+Weapon7 = [Amazon] Plague Javelin.txt
+Weapon8 = [Amazon] Lightning Fury.txt
+Weapon9 = [Paladin] Holy Fire.txt
+Weapon10 = [Paladin] Holy Freeze.txt
+Weapon11 = [Paladin] Holy Bolt.txt
+Weapon12 = [Paladin] Charge.txt
+Weapon13 = [Paladin] Vengeance.txt
+Weapon14 = [Paladin] Blessed Hammer.txt
+Weapon15 = [Paladin] Sacrifice.txt
+Weapon16 = [Paladin] Fist of the Heavens.txt
+Weapon17 = [Sorceress] Frozen Orb.txt
+Weapon18 = [Sorceress] Charged Bolt.txt
+Weapon19 = [Sorceress] Nova.txt
+Weapon20 = [Sorceress] Chain Lightning.txt
+Weapon21 = [Sorceress] Thunder Storm.txt
+Weapon22 = [Sorceress] Blaze.txt
+Weapon23 = [Sorceress] Fire Wall.txt
+Weapon24 = [Sorceress] Meteor.txt
+Weapon25 = [Necromancer] Raise Skeleton.txt
+Weapon26 = [Necromancer] Fire Golem.txt
+Weapon27 = [Necromancer] Revive.txt
+Weapon28 = [Necromancer] Teeth.txt
+Weapon29 = [Necromancer] Bone Wall.txt
+Weapon30 = [Necromancer] Bone Spear.txt
+Weapon31 = [Necromancer] Bone Prison.txt
+Weapon32 = [Necromancer] Poison Nova.txt
+Weapon33 = [Barbarian] Taunt.txt
+Weapon34 = [Barbarian] Grim Ward.txt
+Weapon35 = [Barbarian] War Cry.txt
+Weapon36 = [Barbarian] Battle Orders.txt
+Weapon37 = [Barbarian] Double Throw.txt
+Weapon38 = [Barbarian] Leap Attack.txt
+Weapon39 = [Barbarian] Frenzy.txt
+Weapon40 = [Barbarian] Whirlwind.txt
+Weapon41 = [Assassin] Cobra Strike.txt
+Weapon42 = [Assassin] Dragon Flight.txt
+Weapon43 = [Assassin] Psychic Hammer.txt
+Weapon44 = [Assassin] Shadow Master.txt
+Weapon45 = [Assassin] Fire Blast.txt
+Weapon46 = [Assassin] Charged Bolt Sentry.txt
+Weapon47 = [Assassin] Wake of Fire.txt
+Weapon48 = [Assassin] Blade Fury.txt
+Weapon49 = [Druid] Molten Boulder.txt
+Weapon50 = [Druid] Arctic Blast.txt
+Weapon51 = [Druid] Twister.txt
+Weapon52 = [Druid] Volcano.txt
+Weapon53 = [Druid] Rabies.txt
+Weapon54 = [Druid] Raven.txt
+Weapon55 = [Druid] Poison Creeper.txt
+Weapon56 = [Druid] Oak Sage.txt
+Weapon57 = [Special] Teleport.txt
+
+[NinjaRope]
+RopeLength = 300
+RestLength = 27
+Strength = 4.5
+
+[Worm]
+AngleSpeed = 150
+GroundSpeed = 8
+AirSpeed = 4
+Gravity = 100
+JumpForce = -65
+AirFriction = 0
+GroundFriction = 0.4

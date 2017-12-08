@@ -1,0 +1,13 @@
+[General]
+Name = [Barbarian] Taunt
+Recoil = 0
+Recharge = 4
+Drain = 11
+ROF = 50
+Sound = Taunt.wav
+
+[Projectile]
+Amount = 720
+Speed = 1000
+Spread = 180
+Projectile = Taunt Out Dummy 1.txt

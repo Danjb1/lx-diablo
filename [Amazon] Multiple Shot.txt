@@ -1,0 +1,15 @@
+[General]
+Name = [Amazon] Multiple Shot
+Class = WCL_MISSILE
+Recoil = 5
+Recharge = 1.5
+Drain = 34
+ROF = 1500
+Sound = Multiple Shot.wav
+
+[Projectile]
+Amount = 20
+Speed = 170
+SpeedVar = 5
+Spread = 45
+Projectile = Multiple Shot Dummy.txt

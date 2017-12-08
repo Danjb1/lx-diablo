@@ -1,0 +1,29 @@
+[General]
+Type = PRJ_IMAGE
+Image = Bone Spear.png
+UseAngle = True
+AngleImages = 18
+Trail = TRL_PROJECTILE
+Gravity = 10
+
+[Hit]
+Type = Explode
+Damage = 15
+Projectiles = True
+Shake = 4
+Sound = Bone Spear Hit.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 24
+
+[Projectile]
+Amount = 1
+Speed = 0
+Projectile = Bone Spear Explosion.txt
+
+[ProjectileTrail]
+Amount = 1
+Speed = 0
+Delay = 10
+Projectile = Bone Spear Trail Dummy.txt
